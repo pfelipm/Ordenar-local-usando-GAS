@@ -1,3 +1,3 @@
 # Ordenar-local-usando-GAS
 
-Ejemplos de ordenación alfabética de tablas respetando las particularidades idiomáticas. Material de soporte para el artículo: "Ordenando alfabéticamente con caracteres propios del idioma en Apps Script" en pablofelip.online.
+Ejemplos de ordenación alfabética de tablas respetando las particularidades idiomáticas. Material de soporte para el artículo: "**Ordenando alfabéticamente con caracteres propios del idioma en Apps Script**" en [pablofelip.online](https://pablofelip.online/ordenando-alfabeticamente-con-caracteres-propios-del-idioma-en-apps-script/).
