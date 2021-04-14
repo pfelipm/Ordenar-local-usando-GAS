@@ -6,9 +6,9 @@ function ordenarSort3() {
 
   const matrizOrdenada = obtenerUsuarios('A2:E7').sort((v1, v2) => {
     
-    // Concatenar apellido 1 + apellido 2 + nombre para ordenación alfabética por nombre completo apropiada
-    const elemento1 = v1[1] + v1[2] + v1[0];
-    const elemento2 = v2[1] + v2[2] + v2[0];
+    // Concatenar apellido1 + apellido2 + nombre (sin espacios) con separador ' ' para ordenar por nombre completo
+    const elemento1 = v1[1].replace(/ /g, '') + ' ' + v1[2].replace(/ /g, '') + ' ' + v1[0].replace(/ /g, '');
+    const elemento2 = v2[1].replace(/ /g, '') + ' ' + v2[2].replace(/ /g, '') + ' ' + v2[0].replace(/ /g, '');
     
     // Si el1 > el2 devuelve 1
     // Si el1 = el2 devuelve 0
